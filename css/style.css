@@ -1,5 +1,34 @@
+/* GENERICS */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.main-container {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    position: relative;
+
+}
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* UTILS */
+#shoes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flagship{
+    text-align: center;
+    color: yellow;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 400%);
 }
