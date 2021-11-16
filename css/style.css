@@ -3,11 +3,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .main-container {
     height: 100vh;
     width: 100%;
-    background-color: red;
     position: relative;
 
 }
@@ -16,8 +16,11 @@
     display: table;
     clear: both;
 }
+body{
+    font-family: 'Rubik Mono One', sans-serif ;
+}
 /* UTILS */
-#shoes{
+.shoes{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -26,8 +29,6 @@
 
 .flagship h1{
     text-align: center;
-    color: yellow;
-    font-family:'Rubik Mono One', sans-serif;
     font-weight: bolder;
     position: absolute;
     bottom: 50%;
@@ -36,19 +37,33 @@
 }
 .change-pages{
     position: fixed;
-    top: 0;
-    right: 20px;
+    top: 30px;
+    right: 0;
     list-style-type: none;
     text-decoration: none;
-    display: inline;
 }
 li a {
-    display: block;
     color: black;
     background-color: white;
     border-radius: 50%;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 15px;
     text-decoration: none;
     margin: 20px;
+  }
+  li{
+      display: inline-block;
+  }
+#shoes1{
+      background-color: red;
+      color: yellow;
+  }
+#shoes2{
+      background-color: green;
+      color: yellow;
+
+  }
+#shoes3{
+    background-color: yellow;
+    color: green;
   }
