@@ -24,11 +24,31 @@
     transform: translate(-50%, -50%);
 }
 
-.flagship{
+.flagship h1{
     text-align: center;
     color: yellow;
+    font-family:'Rubik Mono One', sans-serif;
+    font-weight: bolder;
     position: absolute;
     bottom: 50%;
     left: 50%;
     transform: translate(-50%, 400%);
 }
+.change-pages{
+    position: fixed;
+    top: 0;
+    right: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+}
+li a {
+    display: block;
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 20px;
+  }
